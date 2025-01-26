@@ -12,6 +12,9 @@ class math_func:
        # print (first_value - second_value)
         print("Defference of two value is ", first_value - second_value)
     
+    def mult (first_value, second_value):
+        m = first_value * second_value
+        print("Multiplication of two value is ", m)
     def div (first_value, second_value):
         d = first_value / second_value
         print("Devision of two value is ", d)
@@ -21,4 +24,5 @@ b = int(input("Please enter second value"))
 c = math_func
 c.add(a,b)
 c.sub(a,b)
+c.mult(a,b)
 c.div(a,b)
